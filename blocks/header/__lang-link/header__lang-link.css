@@ -1,0 +1,21 @@
+.header__lang-link{
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__lang-link::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    line-height: 15px;
+    background: #fff;
+    height: 2px;
+    width: 0%;
+    transition:0.3s ease-out;
+}
+
+.header__lang-link:hover::after{
+    width: 100%;
+}

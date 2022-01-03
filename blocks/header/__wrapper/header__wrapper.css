@@ -1,0 +1,5 @@
+.header__wrapper{
+    display: flex;
+    flex-basis: 80px;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+.cover__wrapper{
+    width: 560px;
+    margin: 0 auto;
+    padding: 21% 0px;
+}
+
+@media screen and (max-width: 768px){
+    .cover__wrapper{
+        width: 100%;
+    }
+}

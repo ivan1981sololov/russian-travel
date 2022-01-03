@@ -1,0 +1,11 @@
+.two-columns__link{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    opacity: 1;
+    transition:.2s;
+}
+
+.two-columns__link:hover{
+    opacity: 0.8;
+}
