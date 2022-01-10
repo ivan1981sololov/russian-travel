@@ -1,0 +1,21 @@
+.main{
+    margin: 56px 0px 92px 0px;
+}
+
+@media screen and (max-width: 1279px){
+    .main{
+        margin: 48px 0px 92px 0px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .main{
+        margin: 48px 0px 88px 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .main{
+        margin: 48px 0px 64px 0px;
+    }
+}

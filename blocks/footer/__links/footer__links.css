@@ -1,13 +1,10 @@
 .footer__links{
     display: flex;
-    flex-basis: 470px;
-    justify-content: space-between;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .footer__links{
         flex-direction: column;
-        flex-basis: 250px;
         margin-bottom: 48px;
     }
 }

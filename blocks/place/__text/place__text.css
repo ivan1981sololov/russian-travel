@@ -1,0 +1,21 @@
+.place__text{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 1023px){
+    .place__text{
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .place__text{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+}

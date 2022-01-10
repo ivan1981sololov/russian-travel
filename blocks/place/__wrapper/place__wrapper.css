@@ -1,0 +1,15 @@
+.place__wrapper{
+    flex-basis: 484px;
+}
+
+@media screen and (max-width: 1023px){
+    .place__wrapper{
+        flex-basis: 352px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .place__wrapper{
+        flex-basis: auto;
+    }
+}

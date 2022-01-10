@@ -3,19 +3,24 @@
     font-size: 24px;
     color: #fff;
     text-decoration: none;
+    line-height: 28px;
+    margin-right: 18px;
+    transition:.2s;
 }
 
-.header__lang-link::after{
-    content: ' ';
-    display: block;
-    position: absolute;
-    line-height: 15px;
-    background: #fff;
-    height: 2px;
-    width: 0%;
-    transition:0.3s ease-out;
+.header__lang-link:last-child{
+    margin-right: 0px;
 }
 
-.header__lang-link:hover::after{
-    width: 100%;
+
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 425px){
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

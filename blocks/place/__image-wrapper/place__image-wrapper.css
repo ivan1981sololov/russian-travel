@@ -1,0 +1,22 @@
+.place__image-wrapper{
+    flex-basis: 460px;
+    margin-right: 4%;
+}
+
+
+@media screen and (max-width: 1023px){
+    .place__image-wrapper{
+        flex-basis: 340px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .place__image-wrapper{
+        max-width: 100vw;
+        position: relative;
+        margin-right: 0;
+        margin-bottom: 32px;
+        flex-basis: auto;
+    }
+}

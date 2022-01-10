@@ -1,9 +1,0 @@
-.two-columns__wrapper{
-    flex-basis: 484px;
-}
-
-@media screen and (max-width: 768px){
-    .two-columns__wrapper{
-        flex-basis: auto;
-    }
-}

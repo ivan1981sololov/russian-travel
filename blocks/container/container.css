@@ -3,19 +3,23 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px){
-    .container{
-        box-sizing: border-box;
-        max-width: 100%;
-        padding: 0 3%;
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .container {
+      max-width: 928px;
     }
-}
-
-
-@media screen and (max-width: 1024px){
-    .container{
-        max-width: 100%;
-        padding: 0 3%;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      padding: 0px 24px;
+      max-width: 720px;
     }
-
-}
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      padding: 0px 16px;
+      min-width: 288px;
+    }
+  }
